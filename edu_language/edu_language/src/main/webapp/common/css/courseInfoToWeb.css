@@ -1,0 +1,48 @@
+@CHARSET "UTF-8"; 
+.newArticleBody{font-family: '宋体';color: #000000;font-size: 12px;width:1024px;margin:0 auto;text-decoration: none;}
+.kcztjs{width:1024px;;height:190px;float: left;}
+.newArticleFoot{height:80px;width:100%;float:left;}
+.kcztjsSpan{font-family: '宋体';color: #000000;font-size: 27px;height:27px;width:1024px;float:left;}
+.kcztjsSpan2{width:100%;height: 105px;float:left;line-height: 23px;}
+.page{width:1024px;/*height:1160px;*/height:725px;float:left;}
+.mykeys{margin-top:25px;width:1024px;height:35px;float:left;}
+.mykeyA{text-decoration:none;font-size: 14px; display: block;width:45px;height: 21px;float:left;border: 0px;margin-top:10px;}
+.mykeysSpan{font-size: 14px;float:left;width:200px;height:35px;padding-top: 12px;text-align: center;}
+.page_all_center{float: left;margin-top: 100px;padding-left: 50px;}
+.unitbox{
+	/*width: 140px;
+	height: 190px;
+	float: left;
+	text-align: center;
+	margin-left: 5px;*/
+	width: 180px;
+	height: 240px;
+	float: left;
+	text-align: center;
+	margin-left: 20px;
+}
+.mykeysSpan img{
+margin-top:5px;
+}
+.mykeysSpan:HOVER {
+	text-decoration: underline;
+}
+.mycheck{
+padding-left: 24px;
+cursor: pointer;
+background: url(/resource/image/checkbox.png) no-repeat left -21px;
+line-height: 22px;
+height: 21px;
+display: inline-block;
+}
+.cricleimg{
+	border: 1px solid rgb(226, 226, 226);
+	border-radius:10px;
+}
+.bookbox{
+	width: 180px;
+	height: 240px;
+	float: left;
+	text-align: center;
+	margin-left: 20px;
+}

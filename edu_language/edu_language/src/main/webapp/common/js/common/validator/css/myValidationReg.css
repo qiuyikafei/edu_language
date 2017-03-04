@@ -1,0 +1,45 @@
+/****  E.FLY 2012.06.14 12:28 ****/
+
+@charset "utf-8";
+
+.vReg_Right_Class{
+	display:none;
+	position: absolute; 
+	font-size: 12px; 
+	z-index: 9998;
+	padding:2px;
+	background-image: url("right.gif");
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 16px;
+	}
+.vReg_Error_Class{
+	display:none;
+	position: absolute; 
+	font-size: 12px; 
+	background-color: #FFFFF0;
+	border: 1px solid #FF0000 ;
+	z-index: 9998;
+	padding: 3px 5px 3px 25px;
+	background-image: url("wrong.gif");
+	background-repeat: no-repeat;
+	background-position:5px 3px; 
+	}
+.vReg_Error_Line_Class{
+	border: 2px solid #FF0000;
+	}
+.vReg_Error_SelectClass{
+	padding:0px;
+	width:auto;
+	height:auto;
+	border: 2px solid #FF0000;
+	}
+.vReg_Tip_Class{
+	display:none;
+	position: absolute; 
+	font-size: 12px; 
+	background-color: #FFFFF0;
+	border: 1px solid #a6c9e2;
+	z-index: 9999;
+	padding: 5px;
+	}

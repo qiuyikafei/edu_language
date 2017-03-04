@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.edu.language.base.persistence.SysUserMapper" >
+  <resultMap id="BaseResultMap" type="com.edu.language.base.domain.SysUser" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="username" property="userName" jdbcType="VARCHAR" />
+    <result column="password" property="passWord" jdbcType="VARCHAR" />
+    <result column="address" property="address" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="creater_id" property="createrId" jdbcType="INTEGER" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="update_id" property="updateId" jdbcType="INTEGER" />
+    
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, username, password,address,create_time,create_id,update_time,update_id
+  </sql>
+  
+  <select id="findUser" parameterType="com.edu.language.base.domain.SysUser" resultType="com.edu.language.base.domain.SysUser">
+    select 
+    <include refid="Base_Column_List" />
+    	from sys_user where 1 = 1 
+    	<if test = "userName != null">
+    		and username = #{userName}
+    	</if>
+    	
+    	<if test = "passWord != null">
+    		and password = #{passWord}
+    	</if>
+  </select>
+</mapper>
