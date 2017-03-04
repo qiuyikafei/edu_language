@@ -54,10 +54,32 @@ public class loginController {
 		return map;
 	}
 	
+	/**
+	 * 
+	 * Description : 进入登录后的页面
+	 * @param request
+	 * @param response
+	 * @param user
+	 * @return
+	 */
 	@RequestMapping("/loginIn")
 	public String loginIn(HttpServletRequest request,    
 			HttpServletResponse response,SysUser user) {
-		return "";
+		return ""; //跳转到登陆后的页面
 	}
+	
+	/**
+	 * 
+	 * Description : 跳转到注册页面
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("/register")
+	public String register(HttpServletRequest request,    
+			HttpServletResponse response) {
+		return "register/register";
+	}
+
 
 }

@@ -1,8 +1,8 @@
-<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
     <title>页面底部</title>
 	<script type="text/javascript" src="${ctx}/common/js/common/validator/js/jquery-1.4.2.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="${ctx}/common/js/common/validator/css/myValidationReg.css"/>

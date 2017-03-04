@@ -5,11 +5,9 @@
 <head>
 	<meta charset="utf-8">
     <title>大思英语</title>
-	<script type="text/javascript" src="${ctx}/common/js/common/validator/js/jquery-1.4.2.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="${ctx}/common/js/common/validator/css/myValidationReg.css"/>
 	<link rel="stylesheet" type="text/css" href="${ctx}/common/css/alertify.css"/>
 	<link rel="stylesheet" type="text/css" href="${ctx}/common/css/default.css"/>
-	<script type="text/javascript" src="${ctx}/common/js/common/validator/js/myValidationReg.js"></script>
 	<script type="text/javascript" src="${ctx}/common/js/members/checkBrowser.js"></script>
 	<link rel="stylesheet" type="text/css" href="${ctx}/common/css/index.css"/>
 	<link rel="stylesheet" type="text/css" href="${ctx}/common/css/footCss.css"/>

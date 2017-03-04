@@ -1,0 +1,36 @@
+@CHARSET "UTF-8"; 
+.registerBody{font-family: '宋体';color: #000000;font-size: 12px;height: 60px;width: 100%;}
+.register{font-family: '宋体';color: #000000;font-size: 12px;width:1000px;height:auto;margin:0 auto;text-align: center;margin-top:100px;}
+.registerTableTd{padding-top:14px;padding-bottom:14px; width:250px; height: 12px;
+                   background-color: #F2F2F2;padding-left: 10px;font-size: 12px;margin:0 auto;}
+.registerTableTd1{padding-top:14px;padding-bottom:14px; width:180px; height: 12px;
+                   background-color: #F2F2F2;padding-left: 10px;font-size: 12px;margin:0 auto;}
+.registerBtn{margin-left: 510px;width:73px;height:34px;margin-top: 25px;margin-bottom: 20px;}
+.registerBtn button{background-image: url("../resource/image/register.jpg");
+                    background-repeat: no-repeat;
+                    width:75px;height:36px;
+                   
+                    border: none;
+                    }
+.registerFoot{
+	width:100%;
+	height:auto;
+margin:0 auto;
+}
+.registerTable{
+
+margin:0 auto;
+width:365px;
+height:295px;
+}
+.borderChange{
+border:1px solid #FFFF00;
+}
+.registerRule{
+width:1000px;
+height:300px;
+overflow:scroll;
+margin:0 auto;
+border:1px solid #D3D3D3;
+display: none;
+}

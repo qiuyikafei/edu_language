@@ -1,8 +1,8 @@
-<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!doctype html>
 <html>
   <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=uft-8" />
     <title>大思英语</title>
 	<link rel="stylesheet" type="text/css" href="${ctx}/common/css/headCss.css"/>
 	<script type="text/javascript" src="${ctx}/common/js/login/login.js"></script>	
