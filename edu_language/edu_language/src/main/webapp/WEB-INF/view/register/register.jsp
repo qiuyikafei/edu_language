@@ -106,7 +106,7 @@ document.getElementById("randImage").src = "/image.jsp?"+Math.random();
 						<td>
 							<input onfocus="changeBorder(this);" type="text" class="registerTableTd"
 								name="studentBean.name" id="username" value=""
-								 maxlength="8" vReg="V_DSNAME(2,8)" vL="姓名" onblur="testPlayersName('','name')"/>
+								 maxlength="8" vReg="V_DSNAME(2,8)" vL="姓名" onblur="checkContainsSpace()"/>
 						</td>
 					</tr>
 					
@@ -304,6 +304,7 @@ document.getElementById("randImage").src = "/image.jsp?"+Math.random();
 <div class="newArticleFoot">
   <%@include file="/common/footer.jsp"%>
   </div>
+	<script type="text/javascript" src="${ctx}/common/js/login/register.js"></script>	
 	</body>
 
 </html>
